@@ -9,11 +9,9 @@
     height: 100vh;
 }
 .SecContainer{
-    
     width: 60%;
     background-color:#285430;
-    height: 100vh;
-   
+    height: 100vh;  
 }
 .from{
     margin-left: 40px;
@@ -24,7 +22,7 @@
     margin-top: 15px;
 }
 .InputBox{
-    min-width: 400px;
+    max-width: 400px;
     height: 30px;
     border-radius: 5px;
     border: 2px solid black;
@@ -46,6 +44,9 @@
     color: white;
     margin-bottom: 15px;
     font-size: 16px;
+}
+.loginContain{
+  max-width: 400px;
 }
 .LoginButton{
     width: 400px;
@@ -129,3 +130,50 @@ margin-top: 100px;
 margin-left: 30px;
 }
 
+
+@media only screen and (max-width: 320px) and (max-width: 768px)
+{
+  .bigContainer{
+    width: 100%;
+}
+.firstContainer{
+display: none;
+}
+.SecContainer{
+  width: 100%;
+  background-color:#285430;
+  height: 100vh;  
+}
+.InputBox{
+  width: 240px !important;
+  margin-bottom: 20px;
+}
+.inputContainer{
+  width: 240px;
+}
+.from{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.from2{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.LoginButton{
+  width: 240px;
+  margin-right: 60px;
+}
+.part{
+  max-width: 260px;
+}
+.border-text{
+  max-width: 250px;
+}
+.iconDiv{
+  max-width: 219px;
+}
+.Icon-box{
+  width: 40px;
+  margin-left: 5px;
+}
+}

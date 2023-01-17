@@ -1,0 +1,20 @@
+.head-Section{
+  height: 50px;
+  background-color:#557153;
+  width: 100%;
+  color: #E6E5A3;
+
+}
+.List{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-top: 13px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+.ListName{
+    padding-right: 30px;
+    text-align: center;
+   
+}

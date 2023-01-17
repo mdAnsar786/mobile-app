@@ -1,0 +1,70 @@
+.bigContainer{
+    display: flex;
+    flex-direction: row;  
+    width: 100%;
+}
+.firstContainer{
+    width: 40%;
+    background-color: #5F8D4E;
+    height: 100vh;
+}
+.SecContainer{
+    width: 60%;
+    background-color:#285430;
+    height: 100vh; 
+  }
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+}
+.labelText{
+    font-size: 16px;
+    text-align: left;
+    color: #E6E5A3;
+    font-weight: 600;
+}
+.from{
+    margin-left: 40px;
+    margin-top: 80px;
+    overflow-y:none !important;
+    max-width: 640px;
+ 
+}
+.InputBox{
+    max-width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.frontLogin{
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+  
+  .subBox{
+    width: 400px;
+    height: 115px;
+    
+  }
+ 
+  .LoginButton{
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    color: #285430;
+}
+.submitBox{
+    margin-top: 25px;
+    max-width: 400px;
+}
