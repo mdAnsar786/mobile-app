@@ -39,7 +39,7 @@ const Login = () => {
             </div>
 
             <div className="border-text">
-              <h4>
+              <h4 style={{width:"360px"}}>
                 <span>Or Login With</span>
               </h4>
             </div>

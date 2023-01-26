@@ -7,10 +7,10 @@ const Navbar = () => {
         <div>
              <div className="head-Section">
                 <ul className="List">
-                    <Link to={"/"} relative="path"> <li  className="ListName"> Home</li></Link>
-                    <Link to={"/login"} relative="path"> <li  className="ListName"> Login</li></Link>
-                    <Link to={"/createAccount"} relative="path"> <li  className="ListName">CreateAccount</li></Link>
-                    <Link to={"/contactsForm"} relative="path"><li  className="ListName">Contacts</li></Link>
+                    <Link to={"/"} relative="path" style={{color:"white", textDecoration:"none"}}> <li  className="ListName"> Home</li></Link>
+                    <Link to={"/login"} relative="path"style={{color:"white", textDecoration:"none"}}> <li  className="ListName"> Login</li></Link>
+                    <Link to={"/createAccount"} relative="path" style={{color:"white", textDecoration:"none"}}> <li  className="ListName">CreateAccount</li></Link>
+                    <Link to={"/contactsForm"} relative="path" style={{color:"white", textDecoration:"none"}}><li  className="ListName">Contacts</li></Link>
                 </ul>
               </div>
           
