@@ -11,6 +11,8 @@ const Navbar = () => {
                     <Link to={"/login"} relative="path"style={{color:"white", textDecoration:"none"}}> <li  className="ListName"> Login</li></Link>
                     <Link to={"/createAccount"} relative="path" style={{color:"white", textDecoration:"none"}}> <li  className="ListName">CreateAccount</li></Link>
                     <Link to={"/contactsForm"} relative="path" style={{color:"white", textDecoration:"none"}}><li  className="ListName">Contacts</li></Link>
+                    <Link to={"/requirement"} relative="path" style={{color:"white", textDecoration:"none"}}><li  className="ListName">Requirement</li></Link>
+                    <Link to={"/Screening"} relative="path" style={{color:"white", textDecoration:"none"}}><li  className="ListName">Screening</li></Link>
                 </ul>
               </div>
           
